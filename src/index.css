@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    /* font-family: 'Work Sans + Arvo'; */
+    /* font-family: "Open Sans + Nunito"; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.course-card:hover > img{
+    transform: scale(1.05);
+    transition: .2s;
+}
+

@@ -1,0 +1,9 @@
+/* .burger_span{
+@apply block absolute h-1 w-full bg-black opacity-100 left-10 top-10 rounded-lg rotate-0 transition duration-[250ms] ease-in-out
+}  */
+
+
+label span{
+    /* padding-top: .5rem; */
+    color: #01385470;
+}

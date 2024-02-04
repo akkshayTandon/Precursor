@@ -1,0 +1,26 @@
+.type-effect-1 {
+    display: inline-block;
+}
+.type-effect-1 h1 {
+    overflow: hidden;
+    border-right: .15em solid #000;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: 
+    typing 2.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+    from{width: 0}
+    to{width: 100%}
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+}
+
+/* body::before{
+    content: "";
+    opacity: 1;
+    background: url("/img/misc/banner.png") no-repeat ;
+} */
