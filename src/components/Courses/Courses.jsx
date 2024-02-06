@@ -13,17 +13,17 @@ export default function Courses() {
 
   return (
     <>
-      <div className="mt-24 px-5 flex flex-col justify-center items-center">
-        <h1 className="text-2xl font-bold underline">Our Courses</h1>
+      <div className="mt-24 px-5 flex flex-col min-h-screen justify-center items-center">
+        <h1 className="text-2xl font-bold border-b-2 border-precursor_theme_color">Our Courses</h1>
         <section className="text-gray-600 body-font flex flex-col justify-center items-center">
-          <div className="container py-6 mx-auto ">
+          <div className="container py-16 mx-auto ">
             <div className="flex flex-wrap gap-7 md:justify-center md:gap-16">
 
               {Coursedata.map((data, id) => {
                 return (
-                  <div className="p-0 md:w-1/3 xl:w-1/4" data-aos="fade-up">
-                      <NavLink to={`${data.id}`} key={id} style={{ textDecoration: 'none' }}>
-                      <div className="course-card h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                  <div className="p-0 md:w-1/3 xl:w-1/4" key={id} data-aos="fade-up">
+                      <NavLink to={`${data.id}`}  style={{ textDecoration: 'none' }}>
+                      <div className="course-card h-full border-2 border-precursor_theme_color border-opacity-60 rounded-lg overflow-hidden">
                         <img
                           loading="lazy"
                           className="lg:h-48 md:h-36 w-full object-center aspect-video object-contain p-4"

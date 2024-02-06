@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer
       id="contact"
-      className="text-gray-400 bg-gray-900"
+      className="text-gray-400 bg-gray-900 mt-auto"
     >
       <div className="container px-5 py-4 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col md:pl-0">
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center lg:justify-center">
