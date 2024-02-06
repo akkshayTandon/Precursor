@@ -233,7 +233,7 @@ export const Coursedata = [
     imageSrc: "/img/courses/Struts.png",
     heading: "Struts",
     content:
-      "Prerequisite for this course is JAVAEE,after learning this course a student can develop a dynamic we site based on MVC model.",
+      "Prerequisite for this course is JAVAEE,after learning this course a student can develop a dynamic website based on MVC model.",
     modules_covered: [
       "Introduction to Design Pattern",
       "MVC model1 and MVC model2",

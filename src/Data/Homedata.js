@@ -32,41 +32,51 @@ export const Homedata = [
 ];
 
 export const speciality = [
+  
   {
     id: "1",
-    content: "Training will be provided by industry expert.",
+    content:
+      "Motivational Sessions by experts to keep them stressfree and make them ready for facing the challenges in the real competitive world.",
+      icon:"/icons/motivation.png",
   },
   {
     id: "2",
     content:
       "Fully practical sessions on each topic, so that students can understand the concept and visualize it.",
+      icon:"/icons/education.png",
   },
   {
     id: "3",
-    content: "Proper guidance and attention on every student.",
+    content:
+      "Small batch formation to understand student’s problem in a much better way.",
+      icon:"/icons/students.png",
   },
   {
     id: "4",
-    content:
-      "Small batch formation to understand student’s problem in a much better way.",
+    content: "Proper guidance and attention on every student.",
+    icon:"/icons/guidance.png",
   },
   {
     id: "5",
-    content: "Competitions and awards to encourage students.",
+    content: "Friendly atmosphere for learning everything with joy.",
+    icon:"/icons/friendly.png",
   },
+ 
   {
     id: "6",
     content:
       "Presentations and mock interviews to make students industry ready.",
+      icon:"/icons/interview.png",
   },
   {
     id: "7",
-    content:
-      "Motivational Sessions by experts to keep them stressfree and make them ready for facing the challenges in the real competitive world.",
+    content: "Competitions and awards to encourage students.",
+    icon:"/icons/reward.png",
   },
   {
     id: "8",
-    content: "Friendly atmosphere for learning everything with joy.",
+    content: "Training will be provided by industry expert.",
+    icon:"/icons/training.png",
   },
 ];
 
