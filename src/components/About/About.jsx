@@ -11,7 +11,7 @@ export default function About() {
 
   return (
     <div className="mt-28 px-5 flex flex-col min-h-screen justify-center items-center">
-      <figure data-aos="fade-down ">
+      <figure data-aos="fade-down">
         <img
           loading="lazy"
           src="img/misc/about_company.png"

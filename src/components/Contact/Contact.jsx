@@ -10,7 +10,7 @@ export default function Contact() {
     return (
         <div className="mt-24 flex flex-col min-h-screen justify-center items-center min-w-[100vw]">
 
-            <section className="text-gray-600 body-font relative">
+            <section className="text-gray-600 body-font relative" data-aos="zoom-out">
                 <div className="container px-5 py-2 mx-auto">
                     <div className="flex flex-col text-center w-full mb-12">
                         <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900 ">Contact Us</h1>
@@ -51,7 +51,7 @@ export default function Contact() {
                 </div>
             </section>
 
-            <div className="flex flex-col justify-center items-center mt-6 gap-3 md:w-1/2">
+            <div className="flex flex-col justify-center items-center mt-6 gap-3 md:w-1/2" data-aos="fade-up">
 
                 <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 font-semiblod border-b-2 border-precursor_theme_color justify-center">Student Views</h1>
 
@@ -59,7 +59,7 @@ export default function Contact() {
 
             </div>
 
-            <section className="text-gray-600 body-font my-4 relative min-w-[100vw] flex justify-center items-center">
+            <section className="text-gray-600 body-font my-4 relative min-w-[100vw] flex justify-center items-center" data-aos="fade-up">
                 <div className="container ">
                     <div className="w-full bg-gray-300 rounded-lg overflow-hidden p-10 relative h-[50vw]">
                         <iframe width="100%" height="100%" className="absolute inset-0" title="map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.919994089876!2d80.95667557529345!3d26.874282876670097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd66707a1371%3A0x49dc27c64bc0aab2!2sPrecursor%20Info%20Solutions!5e0!3m2!1sen!2sin!4v1707234502204!5m2!1sen!2sin" referrerPolicy="no-referrer"></iframe>

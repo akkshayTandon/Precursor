@@ -13,7 +13,7 @@ export default function Home() {
     <div className="mt-16 flex flex-col min-h-screen">
 
 
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font" data-aos="zoom-out">
         <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img className="object-cover object-center rounded" alt="hero" src="/img/misc/home_img.jpg" />
@@ -25,7 +25,7 @@ export default function Home() {
                 <h3 className="text-center text-base text-black"><i>Code Your Future: The Journey Begins Here </i></h3>
               </div>
             </h1>
-            <p className="mb-8 leading-relaxed">Precursor Info Solutions is more than just a training institute; it's a launchpad for aspiring developers and coders. They equip students with the skills and knowledge needed to thrive in the ever-evolving world of technology, specifically focusing on industrial training.</p>
+            <p className="mb-8 leading-relaxed">Precursor Info Solutions is more than just a training institute, it&apos;s a launchpad for aspiring developers and coders. They equip students with the skills and knowledge needed to thrive in the ever-evolving world of technology, specifically focusing on industrial training.</p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-precursor_theme_color border-0 py-2 px-6 focus:outline-none hover:bg-[#77cbdb] rounded text-lg">Apply Now!</button>
 
@@ -77,7 +77,7 @@ export default function Home() {
         </section>
       </div>
       <hr />
-      <div className="gallery my-3 flex flex-col items-center ">
+      <div className="gallery my-3 flex flex-col items-center" data-aos="fade-up">
         <div className="m-3">
           <h1 className="border-b-2 border-precursor_theme_color text-center text-2xl">Gallery</h1>
         </div>
