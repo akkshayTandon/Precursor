@@ -58,8 +58,8 @@ export default function Navbar() {
 
           {(sideBar || isDesktop) && (
             <>
-            <h1 className="text-2xl font-bold text-black bg-[#84eaff] z-50 left-0 top-16 w-1/2 text-center absolute">Menu</h1>
-            <nav className="flex flex-col absolute top-0 left-0 h-screen w-1/2 gap-10 pl-5 pt-[5.2rem] pt-28 items-start text-base justify-start bg-[#ffffff] shadow-2xl  md:ml-auto md:mr-auto md:flex lg:static lg:flex-row lg:h-0 lg:pt-0 lg:items-center lg:justify-center">
+            <h1 className="text-2xl font-bold text-black bg-[#84eaff] z-50 left-0 top-16 w-1/2 text-center absolute lg:hidden">Menu</h1>
+            <nav className="flex flex-col absolute top-0 left-0 h-screen w-1/2 gap-10 pl-5 pt-28 items-start text-base justify-start bg-[#ffffff] shadow-2xl md:ml-auto md:mr-auto md:flex lg:static lg:flex-row lg:h-0 lg:pt-0 lg:items-center lg:justify-center">
               
               <NavLink
                 to="/"
