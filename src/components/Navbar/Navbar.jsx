@@ -57,12 +57,15 @@ export default function Navbar() {
           </a>
 
           {(sideBar || isDesktop) && (
-            <nav className="flex flex-col absolute top-0 left-0 h-screen w-1/2 gap-10 pl-4 pt-[5.2rem] items-start text-base justify-start bg-[#ffffff] shadow-2xl  md:ml-auto md:mr-auto md:flex lg:static lg:flex-row lg:h-0 lg:pt-0 lg:items-center lg:justify-center">
+            <>
+            <h1 className="text-2xl font-bold text-black bg-[#84eaff] z-50 left-0 top-16 w-1/2 text-center absolute lg:hidden">Menu</h1>
+            <nav className="flex flex-col absolute top-0 left-0 h-screen w-1/2 gap-10 pl-5 pt-28 items-start text-base justify-start bg-[#ffffff] shadow-2xl md:ml-auto md:mr-auto md:flex lg:static lg:flex-row lg:h-0 lg:pt-0 lg:items-center lg:justify-center">
+              
               <NavLink
                 to="/"
                 onClick={handleClick}
                 className={({ isActive }) =>
-                  `${isActive ? "text-precursor_theme_color" : "text-black"
+                  `${isActive ? "text-precursor_theme_color border-b-precursor_theme_color border-b-2" : "text-black"
                   } cursor-pointer mr-5 hover:text-precursor_theme_color font-bold`
                 }
               >
@@ -73,7 +76,7 @@ export default function Navbar() {
                 to="/about"
                 onClick={handleClick}
                 className={({ isActive }) =>
-                  `${isActive ? "text-precursor_theme_color" : "text-black"
+                  `${isActive ? "text-precursor_theme_color border-b-precursor_theme_color border-b-2" : "text-black"
                   } cursor-pointer mr-5 hover:text-precursor_theme_color font-bold`
                 }
               >
@@ -84,7 +87,7 @@ export default function Navbar() {
                 to="/courses"
                 onClick={handleClick}
                 className={({ isActive }) =>
-                  `${isActive ? "text-precursor_theme_color" : "text-black"
+                  `${isActive ? "text-precursor_theme_color border-b-precursor_theme_color border-b-2" : "text-black"
                   } cursor-pointer mr-5 hover:text-precursor_theme_color font-bold`
                 }
               >
@@ -94,13 +97,14 @@ export default function Navbar() {
                 to="/contact"
                 onClick={handleClick}
                 className={({ isActive }) =>
-                  `${isActive ? "text-precursor_theme_color" : "text-black"
+                  `${isActive ? "text-precursor_theme_color border-b-precursor_theme_color border-b-2" : "text-black"
                   } cursor-pointer mr-5 hover:text-precursor_theme_color font-bold`
                 }
               >
                 Contact
               </NavLink>
             </nav>
+            </>
           )}
 
         </div>

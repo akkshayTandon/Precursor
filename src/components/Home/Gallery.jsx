@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { ChevronLeft, ChevronRight } from "react-feather"
 
 export default function Gallery({ children: slides, autoSlide = false, autoSlideInterval = 3000 }) {
